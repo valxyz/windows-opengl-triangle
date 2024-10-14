@@ -53,6 +53,9 @@ int main(){
     //print OpenGL version
     const GLubyte* renderer = glGetString(GL_RENDERER); // GPU
     const GLubyte* version = glGetString(GL_VERSION);   // OpenGL version
+    
+    const char* glfwVersion = glfwGetVersionString();
+    std::cout << "GLFW version: " << glfwVersion << std::endl;
     std::cout << "Renderer: " << renderer << std::endl;
     std::cout << "OpenGL version supported: " << version << std::endl;
 

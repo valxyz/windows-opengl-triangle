@@ -4,9 +4,9 @@ This example contains a basic OpenGL project that uses **GLAD** for loading Open
 
 ____
 
-![](./assets/images/test-opengl.png)
+![](./assets/images/test.png)
 
-###### Compilation command
+#### Compilation command
 
 ```powershell
 g++ -g -std=c++11 -I./include -L./lib ./src/*.cpp ./src/glad.c -lglfw3dll -o ./program.exe
@@ -35,13 +35,7 @@ The following file structure is organized to ensure the project works correctly:
 
 This structure is essential for the correct functioning of the files, ensuring that the libraries and source files are organized and accessible during compilation and execution.
 
-###### Dependencies
-
-You can mention the dependencies in your README like this:
-
----
-
-### Dependencies
+#### Dependencies
 
 - [GLAD Web Service](https://glad.dav1d.de/): A web-based tool for generating OpenGL loaders, customizable by API version and extensions.
 - [GLFW Download Page](https://www.glfw.org/download.html): Official download page for GLFW, a library used to manage windows and input in OpenGL applications.
